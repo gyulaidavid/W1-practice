@@ -19,12 +19,67 @@ p.purple{
     color: pink;
 } */
 
+/* --- start of CSS reset --- */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+ /*  box-sizing: border-box; */
+  background: transparent;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+textarea,
+select {
+  appearance: none !important;
+  border-radius: 0;
+}
+
+/* --- end of CSS reset --- */
+
 body {
   color: lightgreen;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  width: 100vw;
+  height: 100vh;
+  
 }
 
+span {
+display: block;
+margin-bottom: 20px;
+}
+
+.box{
+width: 400px;
+height: 400px;
+background-color: gray;
+padding: 30px;
+}
+
+/* 
 div {
   color: chocolate;
 }
@@ -37,4 +92,4 @@ div {
 
 p {
   height: 80px;
-}
+} */
