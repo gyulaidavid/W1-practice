@@ -26,7 +26,7 @@ p.purple{
   padding: 0;
   border: 0;
   outline: none;
- /*  box-sizing: border-box; */
+  /*  box-sizing: border-box; */
   background: transparent;
   font-family: inherit;
 }
@@ -58,38 +58,19 @@ select {
 
 /* --- end of CSS reset --- */
 
-body {
-  color: lightgreen;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  width: 100vw;
-  height: 100vh;
-  
-}
-
 span {
-display: block;
-margin-bottom: 20px;
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-bottom: 10px;
+  background-color: rgb(79, 79, 79);
+  padding: 20px;
 }
 
-.box{
-width: 400px;
-height: 400px;
-background-color: gray;
-padding: 30px;
+.border-box {
+  box-sizing: border-box;
 }
 
-/* 
-div {
-  color: chocolate;
+.border-added {
+  border: 10px solid black;
 }
-
-.container-1 {
-  background-color: black;
-  height: 100px;
-  font-weight: 300;
-}
-
-p {
-  height: 80px;
-} */
